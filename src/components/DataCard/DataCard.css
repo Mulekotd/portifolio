@@ -1,0 +1,32 @@
+.box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.box:hover {
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 30px 90px;
+  transform: scale(1.0125);
+}
+
+.transparent-card {
+  height: 260px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+a {
+  text-align: center;
+  display: block;
+}

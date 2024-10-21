@@ -1,0 +1,22 @@
+.navbar-nav {
+  flex-wrap: nowrap;
+}
+
+.navbar-collapse {
+  overflow-x: hidden;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #5a5a5a;
+  transition: transform 0.2s;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+  color: #343a40;
+}
+
+.nav-link.active {
+  color: #979797;
+}

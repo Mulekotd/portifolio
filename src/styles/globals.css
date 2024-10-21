@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font: normal bold 16px "Monoton", sans-serif;
+}
+
+.sub-skills {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.2s ease-out;
+}
+
+.sub-skills-show {
+  height: fit-content;
+  transition: height 0.4s ease-in;
+}
