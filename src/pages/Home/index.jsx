@@ -88,9 +88,9 @@ export default function Home() {
                 name: "SQL",
                 subSkills: ["PostgreSQL", "MySQL"],
               },
-              { name: "React.js", subSkills: ["Material UI", "Bootstrap"] },
-              { name: "Node.js", subSkills: ["Express", "Axios"] },
-              { name: "Docker", subSkills: ["Docker-Compose"] },
+              { name: "React.js", subSkills: ["Material UI", "Redux"] },
+              { name: "Node.js", subSkills: ["Express"] },
+              { name: "Docker" },
             ]}
           />
         </div>

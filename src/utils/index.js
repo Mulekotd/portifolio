@@ -71,6 +71,11 @@ export const excelGraphicx = new URL(
   import.meta.url
 ).href;
 
+export const selos = new URL(
+  "/src/assets/images/selos-agro.png",
+  import.meta.url
+).href;
+
 // static download handling
 export const etc = new URL(
   "/src/assets/downloads/Certificado Exposição de Jogos.pdf",
@@ -100,6 +105,12 @@ export const sites = [
     src: last,
     url: "https://app.last.app.br/dashboard/",
     title: "Projeto LAST 2",
+  },
+  {
+    alt: "Selos do Agro",
+    src: selos,
+    url: "https://www-dev.selosdoagro.com/",
+    title: "Selos do Agro",
   },
   {
     alt: "ExcelGraphicx",
